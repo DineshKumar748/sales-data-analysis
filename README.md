@@ -62,7 +62,7 @@ This project strengthened my understanding of pandas, exploratory data analysis,
 ---
 
 ## Conclusion
-This project demonstrates a complete data analysis workflowÑfrom raw data cleaning to visualization and insight generationÑusing Python and pandas.  
+This project demonstrates a complete data analysis workflow – from raw data cleaning to visualization and insight generation – using Python and pandas.  
 It reflects practical skills relevant to entry-level data analyst roles.
 
 ---
