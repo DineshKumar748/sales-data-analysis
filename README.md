@@ -1,85 +1,87 @@
-# Sales Data Analysis using Python & Pandas
+# Sales Analytics Project (SQL + Python)
 
-## Project Overview
-This project involves analyzing a sales dataset to generate meaningful business insights using Python and pandas.  
-The purpose of the project is to clean raw sales data, perform exploratory data analysis (EDA), create visualizations, and summarize insights that support business decision-making.
+**Author:** Dinesh Kumar Muthusamy  
 
-This project was created as part of my data analysis learning journey and reflects real-world data challenges such as missing values, inconsistent data types, and categorical inconsistencies.
-
----
-
-## Tools & Technologies
-- Python  
-- Pandas  
-- Matplotlib  
-- Jupyter Notebook  
+🔗 **E-commerce Dataset (Kaggle):**  
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce  
 
 ---
 
-## Data Cleaning & Preparation
-The following data preprocessing steps were performed:
-- Identified and handled missing values  
-- Converted numeric columns (`quantity`, `unit_price`, `discount_applied`) to proper data types  
-- Standardized categorical columns such as delivery status and payment method  
-- Converted the order date column into datetime format  
-- Removed invalid and duplicate records  
-- Created a revenue column by applying discounts to sales values  
+## 📌 Overview
+This project is an end-to-end **Sales Analytics** solution built using **SQL and Python** on a real-world **e-commerce dataset**.  
+It analyses sales performance, customer behaviour, and revenue trends to support data-driven business decisions.
+
+The project demonstrates practical data analyst skills including:
+- Relational data modelling
+- Advanced SQL queries
+- Business KPI analysis
+- Data visualisation and storytelling
 
 ---
 
-## Analysis Performed
-- Total revenue calculation  
-- Monthly revenue trend analysis  
-- Revenue distribution by region  
-- Identification of top-performing products  
-- Analysis of delivery status performance  
-- Evaluation of discount impact on revenue  
+## 📊 Dataset
+The dataset used in this project is a public **E-commerce dataset from Kaggle** (link above).
+
+Due to GitHub file size limits, raw CSV files are **not included** in this repository.  
+The dataset can be downloaded directly from Kaggle.
 
 ---
 
-## Visualizations
-The following visualizations were created to support the analysis:
-- Monthly revenue trend (line chart)  
-- Revenue by region (bar chart)  
-- Top 10 products by revenue  
-- Delivery status distribution  
+## 🛠️ Tools & Technologies
+- SQL (MySQL / SQLite)
+- Python (pandas, matplotlib)
+- Jupyter Notebook
+- GitHub
 
 ---
 
-## Key Business Insights
-- Revenue varies significantly across regions, indicating differences in regional performance.  
-- Monthly revenue trends suggest fluctuations that may reflect seasonal buying behavior.  
-- A small number of products contribute a large share of overall revenue.  
-- Delivery delays and cancellations highlight potential areas for operational improvement.  
-- Discounts increase order volume but reduce per-order revenue, suggesting the need for optimized discount strategies.  
+## 🔍 Key Analyses
+- Total revenue and order performance
+- Revenue by product category
+- Top customers by total revenue
+- Order revenue vs number of items
+- Customer purchase behaviour
+- Relational database design (ER Diagram)
 
 ---
 
-## Personal Learning & Observations
-While working on this project, I gained hands-on experience in cleaning real-world data and handling common issues such as inconsistent data types and missing values.  
-This project strengthened my understanding of pandas, exploratory data analysis, and how to translate analytical results into clear business insights.
+## 📈 Visualisations
+
+### ER Diagram
+![ER Diagram](images/er_diagram.png)
+
+### Revenue by Category
+![Revenue by Category](images/revenue_by_category.png)
+
+### Top Customers by Revenue
+![Top Customers](images/top_customers.png)
+
+### Order Revenue vs Items
+![Order Revenue vs Items](images/order_revenue_vs_items.png)
 
 ---
 
-## Conclusion
-This project demonstrates a complete data analysis workflow – from raw data cleaning to visualization and insight generation – using Python and pandas.  
-It reflects practical skills relevant to entry-level data analyst roles.
+## 📂 Project Structure
+
+sales.ipynb
+images/
+ ├── er_diagram.png
+ ├── revenue_by_category.png
+ ├── top_customers.png
+ ├── order_revenue_vs_items.png
+
 
 ---
 
-## Author
-**Dinesh Kumar Muthusamy**  
-ddina0909@gmail.com  
-Data Analysis Portfolio Project
+## 🧠 Key Skills Demonstrated
+- Advanced SQL (JOINs, CTEs, window functions)
+- Data aggregation and KPI calculation
+- Python-based data analysis
+- Business insight generation
+- Data visualisation
 
+---
 
-
-
-
-
-
-
-
-
-
-
+## 🔐 Notes
+- Database credentials and passwords are not included for security reasons.
+- This project is created for **learning and portfolio purposes** using public data.
